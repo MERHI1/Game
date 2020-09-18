@@ -736,7 +736,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &424956993
 Transform:
@@ -795,7 +795,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!108 &428167757
 Light:
@@ -889,7 +889,7 @@ GameObject:
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!20 &640464263
 Camera:
@@ -1046,7 +1046,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!108 &1128128104
 Light:
@@ -1624,8 +1624,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6308b2cc566c594aaf794562de2820a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttons: {fileID: 332796803}
+  m_cube: {fileID: 2145386167}
   playTxt: {fileID: 244823885}
   gameName: {fileID: 292018705}
+  clicked: 0
 --- !u!850595691 &2090504171
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1782,7 +1785,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -106.19, y: 2, z: 28.5}
+  m_LocalEulerAnglesHint: {x: -106.34, y: 2, z: 28.5}
 --- !u!111 &2145386172
 Animation:
   m_ObjectHideFlags: 0
@@ -1795,6 +1798,7 @@ Animation:
   m_Animation: {fileID: 7400000, guid: 0d08bf95a8d7e144ebb02418001c97e2, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 0d08bf95a8d7e144ebb02418001c97e2, type: 2}
+  - {fileID: 7400000, guid: 2fa1b715ba443cb49903686ce959ebcc, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0

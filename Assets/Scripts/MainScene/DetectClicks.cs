@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class DetectClicks : MonoBehaviour
 {
-    public GameObject buttons;
+    public GameObject buttons, m_cube;
     public Text playTxt, gameName;
 
     public bool clicked; 
@@ -18,6 +18,7 @@ public class DetectClicks : MonoBehaviour
 
             buttons.GetComponent<ScrollObject>().speed = -5f;
             buttons.GetComponent<ScrollObject>().checkPost = -150f;
+            m_cube.GetComponent<Animation>().Play("StartGameCube");
         }
     }
 }
