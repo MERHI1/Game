@@ -4,7 +4,7 @@ using UnityEngine;
 public class SpawnMus : MonoBehaviour
 {
 
-    public GameObject musicOn { get; }
+    public GameObject musicOn;
 
     void Start()
     {

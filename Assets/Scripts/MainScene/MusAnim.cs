@@ -6,7 +6,7 @@ public class MusAnim : MonoBehaviour
     private SpriteRenderer musicOn;
     private float _movementSpeed = 0.1f;
 
-    void Start()
+    void Start ()
     {
         musicOn = GetComponent<SpriteRenderer>();
         Destroy(gameObject, 5f);

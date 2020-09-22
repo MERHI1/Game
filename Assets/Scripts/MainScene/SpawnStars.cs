@@ -4,7 +4,7 @@ using UnityEngine;
 public class SpawnStars : MonoBehaviour
 {
 
-    public GameObject star { get; }
+    public GameObject star;
 
     void Start()
     {

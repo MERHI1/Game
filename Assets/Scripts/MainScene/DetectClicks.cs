@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class DetectClicks : MonoBehaviour
 {
     public GameObject[] cubes;
-    public GameObject buttons, m_cube, cubes_anim, block;
+    public GameObject buttons, m_cube, cubes_anim, block, spawn_blocks;
     public Light dirLight, dirLight_2;
     public Text playTxt, gameName;
 
@@ -43,6 +43,8 @@ public class DetectClicks : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
             cubes[i].GetComponent<FallCube>().enabled = true; 
         }
+
+        spawn_blocks.GetComponent<SpawnBlocks>().enabled = true;
     }
 
     IEnumerator cubeToBlock()
